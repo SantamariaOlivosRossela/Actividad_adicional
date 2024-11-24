@@ -10,7 +10,7 @@ import java.util.Scanner;
 
 /**
  *
- * @author pc
+ * @author Rossela Santamaria
  */
 public class SistemaRegistro {
      private static GestionLenguaje gestionLenguaje = new GestionLenguaje();  
