@@ -8,7 +8,7 @@ import Modelo.lenguajeProgramacion;
 
 /**
  *
- * @author pc
+ * @author Rossela Santamaria
  */
 public class GestionLenguaje {
      // Atributos estáticos  
