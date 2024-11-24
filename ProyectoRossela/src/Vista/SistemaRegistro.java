@@ -24,13 +24,20 @@ public class SistemaRegistro {
         int opcion;  
 
         do {  
-            System.out.println("1. Agregar Lenguaje");  
-            System.out.println("2. Buscar Lenguaje");  
-            System.out.println("3. Eliminar Lenguaje");  
-            System.out.println("4. Imprimir Lenguajes");  
-            System.out.println("5. Salir");  
-            System.out.print("Seleccione una opción: ");  
-            opcion = lector.nextInt();  
+             String opciones = """
+                                  ----------------------------------------------
+                                                   Selecione una opcion                
+                                  ----------------------------------------------
+                                  1. Agregar Lenguaje
+                                  2. Buscar Lenguaje
+                                  3. Eliminar Lenguaje
+                                  4. Imprimir Lenguajes
+                                  5. Salir
+                                  ----------------------------------------------
+                                  Elija una de las opciones ya brindadas
+                                  """;
+        System.out.printf(opciones);
+          opcion = lector.nextInt();  
             lector.nextLine(); // Consumir nueva línea  
             //Creamos el Switch
             switch (opcion) {  
